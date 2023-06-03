@@ -1,0 +1,24 @@
+/* h1{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+div p{
+    color: yellow;
+    font-weight: bold;
+    background-color: green;
+} */
+input{
+    display: block;
+
+}
+.container{
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+input[type='text']{
+    padding: 23px;
+    border: 2px solid red;
+}
