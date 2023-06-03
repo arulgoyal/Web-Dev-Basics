@@ -1,0 +1,107 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('bg1.jpg');
+    height: 3455px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 59px;
+    top: 45px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 25%;
+    margin: 52px auto;
+    /* border: 2px solid red; */
+}
+
+.right {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 51px;
+    top: 70px;
+}
+
+.navbar {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img {
+    width: 90px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    margin: 0 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(62, 62, 62);
+}
+
+.container {
+    /* border: 2px solid red; */
+    margin: 84px auto;
+    padding: 75px;
+    width: 33%;
+    border-radius: 20px;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 9px;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 20px auto;
+}
+.container h1{
+    text-align: center;
+}
+.formgroup button{
+    display: block;
+    width: 520px;
+    margin: 20px auto;
+}

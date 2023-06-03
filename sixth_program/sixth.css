@@ -1,0 +1,120 @@
+.box{
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: green;
+    position: relative;
+    top: 34px;
+}
+#box2{
+    /* visibility: hidden; */
+    /* display: none; */
+    background-color: red;
+    position: relative;
+    top: 50px;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: yellow;
+}
+/* .container{
+    height: 544px;
+    width: 100%;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row-reverse wrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+} */
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
+/* #item-1{
+    order: 2;
+    flex-grow: 2;
+    flex-shrink: 2;
+} */
+#item-2{
+    /* flex-grow: 3;
+    flex-shrink: 3; */
+    flex-basis: 320px;
+}
+/* #item-3{
+    order: 3; 
+     flex-grow: 4;
+    flex-shrink: 4; 
+}  */
+html{
+    font-size: 25px;
+}
+.container{
+    font-size: 10px;
+    border: 2px solid red;
+    width: 400px;
+    height: 300px;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+}
+#id1{
+    /* font-size: 3em;
+    padding: 3em; */
+}
+#id2{
+    /* font-size: 3rem;
+    padding: 3rem; */
+}
+.boxn{
+    background-color: red;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    display: none;
+}
+@media (max-width:300px){
+    #box-11{
+        display: block;
+        
+    }
+}
+ 
+@media (min-width:300px) and (max-width:500px)  {
+    #box-12{
+        display: block;
+        background-color: yellow;
+    }
+}
+@media (min-width:500px) and (max-width:800px)  {
+    #box-13{
+        display: block;
+        background-color: green;
+    }
+}
+@media (min-width:800px){
+    #box-14{
+        display: block;
+        background-color: blue;
+    }
+}
+ 
+ 

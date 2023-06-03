@@ -1,0 +1,64 @@
+h1#heading1{
+    color : plum;
+    font-family: 'Courier New', Courier, monospace;
+} 
+button{
+    color : red;
+    background-color: black;
+    border-color: darkgray;
+       
+    }
+p#normal{
+    color: blue;
+    background-color: black;
+}
+p#animated{
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+    color: black;
+}
+p#aniamted::after{
+    content: "developer";
+    display: inline-block;
+    animation: animation 6.5s steps(9) infinite;
+    width: 0ch;
+    color: red;
+}
+
+p#animated::before{
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    animation: blinking .4s linear alternate infinite;
+
+}
+@keyframes animation {
+    25%{
+        content: "developer";
+        width: 8.5ch;
+    }
+    40%{
+        width: 0ch;
+    }
+    75%{
+        content: "designer";
+        width: 7.5ch;
+    }
+    90%{
+        width: 0ch;
+    }
+
+}
+@keyframes blinking{
+    100%{
+        opacity: 0;
+    }
+}
+
+
+

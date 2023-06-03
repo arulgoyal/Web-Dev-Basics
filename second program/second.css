@@ -1,0 +1,39 @@
+*{
+    background-color: #090A0D;
+}
+#headingdiv{
+    background-position-x: 174px ;
+    background-position-y: 461px;
+    text-align: center;
+    width: 1092px;
+    height: 101px;
+
+}
+#heading{
+    margin: auto;
+    background-position-x: 174px ;
+    background-position-y: 461px;
+    width: 1092px;
+    height: 101px;
+    Font-family: Neo-Navy;
+    Font-style: Regular;
+    Font-size: 96px;
+    text-align: center;
+    /* Line-height: 101px;
+    Line-height: 100%; */
+    /* text-align: center;
+    text-align: center; */
+    /* align-content: Center;
+    Vertical-align: Top; */
+    /* fill-rule: text ; */
+    /* color-scheme: #281E87; */
+    background: -webkit-linear-gradient(#281E87, #4628b4,#6947Bd,#9378cc);
+    -webkit-background-clip: text;
+    
+    -webkit-text-fill-color: transparent;
+    /* Fill: Linear Gradient
+            #281E87@ 0%
+            #4628B4 @ 28.96%
+            #6947BD @ 62.81%
+            #9378CC @ 100%; */
+}
