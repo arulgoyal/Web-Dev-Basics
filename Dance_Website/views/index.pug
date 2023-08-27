@@ -1,0 +1,37 @@
+doctype html 
+html
+     head 
+         title this is title 
+         style
+            include ../static/style.css 
+     body
+        nav#navbar.top 
+            ul  
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Servives]
+                li #[a(href='/') Class Info]
+                li #[a(href='/') Contact Us] 
+
+        section#introSection 
+            div Welcome to the dance academy 
+            div.small Eat sleep Dance Repeat 
+        
+        section#missionSection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+            div.card
+                h3 Dance the way you like
+            div.card
+                h3 Expert Teaching
+
+        section#sponsorSection 
+            h2 our sponsors
+
+        footer#footer 
+            | our footer here
+
+
+        script 
+            include ../static/index.js
